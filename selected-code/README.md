@@ -16,7 +16,7 @@ These files do not form a standalone runnable application. They are selected fro
 - JDBC / PreparedStatement 数据库访问 / JDBC / PreparedStatement database access
 
 ### `FriendRequest.java`
-- 好友申请、接受与删除 / Friend request, acceptance, and removal
+- 好友申请、接受与关系管理 / Friend request, acceptance, and relationship management
 - 重复申请和好友关系校验 / Duplicate request and friendship validation
 - 双向好友关系查询 / Bidirectional friendship queries
 
@@ -28,9 +28,9 @@ These files do not form a standalone runnable application. They are selected fro
 ### `HistoricalDataLoader.java`
 - 历史股票数据批量导入 / Batch loading of historical stock data
 - 重复记录处理 / Duplicate record handling
-- 数据统计与数据库更新 / Statistical queries and database updates
+- 数据统计与 CV / Beta 更新 / Statistical queries and CV / Beta updates
 
 ### `StockPrediction.java`
 - 从 PostgreSQL 获取历史股票价格 / Historical stock price retrieval from PostgreSQL
 - SMA、EMA 与线性回归预测 / SMA, EMA, and linear regression prediction
-- 终端预测结果及趋势展示 / Terminal-based prediction and trend visualization
+- 多种预测方法结果对比 / Comparison of multiple prediction methods
