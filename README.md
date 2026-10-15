@@ -24,32 +24,6 @@ The project works with approximately **619,000 historical S&P 500 daily stock re
 
 ## 数据库设计 / Database Design
 
-项目从 E/R 建模开始，进一步转换为关系模式，并对数据库结构进行规范化设计。
-
-The project begins with E/R modeling, followed by relational schema design and database normalization.
-
-数据库主要涉及以下核心实体与关系：
-
-- User
-- Friends
-- Friend Requests
-- Portfolio
-- Stock List
-- Stock List Items
-- Stock
-- Historical Stock Data
-
-The main database entities and relationships include:
-
-- Users
-- Friend relationships
-- Friend requests
-- Portfolios
-- Stock lists
-- Stock-list items
-- Stocks
-- Historical stock data
-
 数据库设计图可以在以下目录查看：
 
 Database design diagrams can be found under:
