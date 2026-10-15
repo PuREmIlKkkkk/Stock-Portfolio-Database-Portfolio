@@ -1,8 +1,6 @@
 // Selected excerpt from a two-person database application project.
 // This file contains the stock price prediction module I implemented.
-// Original implementation logic is preserved.
-
-package cs.toronto.edu.models;
+// Original implementation logic is preserved; package declaration omitted for display.
 
 import java.sql.*;
 import java.util.*;
