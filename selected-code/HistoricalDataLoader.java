@@ -1,9 +1,6 @@
 // Selected excerpt from a two-person database application project.
 // This file contains the historical stock data loading and statistics module I implemented.
-// Original implementation logic is preserved.
-
-package cs.toronto.edu.utils;
-
+// Original implementation logic is preserved; package declaration omitted for display.
 import java.sql.*;
 import java.io.*;
 
