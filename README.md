@@ -24,41 +24,15 @@ The project works with approximately **619,000 historical S&P 500 daily stock re
 
 ## 数据库设计 / Database Design
 
-数据库设计图可以在以下目录查看：
+项目从 E/R 建模开始，进一步完成关系模式设计与 BCNF 规范化，并围绕用户、好友关系、Stock List、Portfolio 与股票历史数据建立核心数据模型。
 
-Database design diagrams can be found under:
+The project begins with E/R modeling, followed by relational schema design and BCNF normalization for users, friendships, stock lists, portfolios, and historical stock data.
 
-```text
-architecture/
-```
+数据库设计图：
 
----
+Database design diagram:
 
-## SQL 设计亮点 / SQL Highlights
-
-项目中使用了多种关系数据库查询与更新方式，例如：
-
-The project uses a range of relational database operations, including:
-
-- 多表 `JOIN`
-- `EXISTS` 子查询
-- `ON CONFLICT` / UPSERT
-- 聚合函数
-- `GROUP BY`
-- 子查询
-- 批量数据插入
-- 基于主键与外键的数据完整性约束
-
-Examples include:
-
-- Multi-table `JOIN`
-- `EXISTS` subqueries
-- `ON CONFLICT` / UPSERT
-- Aggregate functions
-- `GROUP BY`
-- Nested queries
-- Batch insertion
-- Primary-key and foreign-key constraints
+![E/R Diagram](architecture/er-diagram.png)
 
 ---
 
