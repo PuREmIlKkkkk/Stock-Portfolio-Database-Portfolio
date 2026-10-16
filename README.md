@@ -28,28 +28,6 @@ Database design diagram:
 
 ---
 
-## 项目演示 / Project Demo
-
-该项目主要以命令行应用形式运行。
-
-A short terminal demonstration will be included to show the main application workflow.
-
-```text
-demo/
-```
-
-演示内容计划包括：
-
-The demo will cover:
-
-- 用户登录
-- 好友关系管理
-- Stock List 查看与修改
-- 股票历史数据查询
-- 股票价格预测
-
----
-
 ## 数据规模 / Dataset
 
 项目使用约 **61.9 万条 S&P 500 历史股票日线记录**，包含：
