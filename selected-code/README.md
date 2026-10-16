@@ -10,27 +10,8 @@ These files do not form a standalone runnable application. They are selected fro
 
 ## 文件说明 / Files
 
-### `User.java`
-- 用户注册与登录认证 / User registration and authentication
-- BCrypt 密码哈希 / BCrypt password hashing
-- JDBC / PreparedStatement 数据库访问 / JDBC / PreparedStatement database access
-
-### `FriendRequest.java`
-- 好友申请、接受与关系管理 / Friend request, acceptance, and relationship management
-- 重复申请和好友关系校验 / Duplicate request and friendship validation
-- 双向好友关系查询 / Bidirectional friendship queries
-
-### `StockList.java`
-- Stock List 创建、修改与删除 / Stock-list creation, modification, and deletion
-- PRIVATE / FRIENDS / PUBLIC 权限控制 / PRIVATE / FRIENDS / PUBLIC access control
-- JOIN、EXISTS 与 UPSERT SQL / SQL using JOIN, EXISTS, and UPSERT
-
-### `HistoricalDataLoader.java`
-- 历史股票数据批量导入 / Batch loading of historical stock data
-- 重复记录处理 / Duplicate record handling
-- 数据统计与 CV / Beta 更新 / Statistical queries and CV / Beta updates
-
-### `StockPrediction.java`
-- 从 PostgreSQL 获取历史股票价格 / Historical stock price retrieval from PostgreSQL
-- SMA、EMA 与线性回归预测 / SMA, EMA, and linear regression prediction
-- 多种预测方法结果对比 / Comparison of multiple prediction methods
+- [`User.java`](selected-code/User.java) — 用户注册、认证与 BCrypt 密码哈希 / User registration, authentication, and BCrypt password hashing
+- [`FriendRequest.java`](selected-code/FriendRequest.java) — 好友关系与请求管理 / Friendship and friend-request management
+- [`StockList.java`](selected-code/StockList.java) — Stock List 管理与访问权限控制 / Stock-list management and access control
+- [`HistoricalDataLoader.java`](selected-code/HistoricalDataLoader.java) — 历史股票数据批量导入与统计更新 / Historical stock data loading and statistical updates
+- [`StockPrediction.java`](selected-code/StockPrediction.java) — SMA、EMA 与线性回归预测 / SMA, EMA, and linear regression prediction
