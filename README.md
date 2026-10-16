@@ -14,26 +14,6 @@ The `selected-code/` directory contains representative excerpts from the parts o
 
 ---
 
-## 精选代码 / Selected Code Samples
-
-`selected-code/` 目录包含我在该双人项目中负责实现的代表性代码摘录。
-
-The `selected-code/` directory contains representative excerpts from the components I implemented in this two-person project.
-
-- [`User.java`](selected-code/User.java) — 用户注册、认证与 BCrypt 密码哈希 / User registration, authentication, and BCrypt password hashing
-- [`FriendRequest.java`](selected-code/FriendRequest.java) — 好友关系与请求管理 / Friendship and friend-request management
-- [`StockList.java`](selected-code/StockList.java) — Stock List 管理与访问权限控制 / Stock-list management and access control
-- [`HistoricalDataLoader.java`](selected-code/HistoricalDataLoader.java) — 历史股票数据批量导入与统计更新 / Historical stock data loading and statistical updates
-- [`StockPrediction.java`](selected-code/StockPrediction.java) — SMA、EMA 与线性回归预测 / SMA, EMA, and linear regression prediction
-
-更多说明见：
-
-See more details in:
-
-[`selected-code/README.md`](selected-code/README.md)
-
----
-
 ## 数据库设计 / Database Design
 
 项目从 E/R 建模开始，进一步完成关系模式设计与 BCNF 规范化，并围绕用户、好友关系、Stock List、Portfolio 与股票历史数据建立核心数据模型。
